@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixo Eletrônico</title>
+    <link rel="stylesheet" href="css/front.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Lixo Eletrônico</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="noticias.html">Noticia</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="restrito.html" class="restrito">Restrito</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="container">
+            <form onsubmit="return false" id="cadastro">
+                <input type="text" id="noticias" placeholder="Notícia" required>
+                <input type="text" id="colaborador" placeholder="Colaborador" required>
+                <input type="text" id="foto1" placeholder="Foto 1" required>
+                <input type="text" id="foto2" placeholder="Foto 2" required>
+                <textarea id="descricao" placeholder="Descrição da Notícia"></textarea>
+                <button id="btnAtualizar">Atualizar Notícia</button>
+            </form>
+
+        </div>
+    </main>
+    <script src="js/atualizar.js"></script>
+</body>
+
+</html>
